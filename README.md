@@ -33,7 +33,7 @@ Select "Use this template" to copy this repository as a new module. Then add you
 git submodule add https://github.com/lvnacy-notes/apparatus-story-module.git story-module
 ```
 
-This module is designed to work within the broader Apparatus ecosystem. Ensure you have the Templater plugin installed and configured in your vault before using the scaffolding templates.
+This module is designed to work within the broader Apparatus ecosystem. If installing in a vault that is not specifically an Apparatus Vault, ensure you have the [Templater][templater], [Dataview][dataview], [Folder Note][folder-notes], and [Custom File Explorer Sort][custom-sort] plugins installed and configured in your vault before using the scaffolding templates. You can copy over the necessary Apparatus templates, scripts, and plugins from the [Apparatus Vault Template][apparatus].
 
 ### Then, Generate the Module
 
@@ -41,11 +41,11 @@ This module is designed to work within the broader Apparatus ecosystem. Ensure y
 2. Use the **Templater** command palette
 3. Select `Templater: Open insert template modal`
 4. Browse available module scaffolds based on your project type
-5. Follow the prompts to generate your project structure
+5. Select the scaffold for the module type you wish to generate
 
 #### Currently available module scaffolds
 
-- **Story Scaffolding** (`story-scaffold`): Generates a complete writing and revision structure for story development. Includes project specification, editorial workflow, and revision phase organization with dashboards to track scene progression through the editorial process. Leverages the **Longform** plugin.
+- **Story Scaffolding** (`story-scaffold`): Generates a complete writing and revision structure for story development. Includes project specification, editorial workflow, and revision phase organization with dashboards to track scene progression through the editorial process. Leverages the **[Longform][longform]** plugin.
 
 **Coming soon:**
 - Additional module templates and specialized scaffolding tools
@@ -65,3 +65,11 @@ This README will be expanded as additional module templates, scripts, and plugin
 ---
 
 For more information about the LVNACY Obsidian Apparatus architecture and philosophy, see the main apparatus documentation in your Apparatus Vault.
+
+<!-- Links -->
+[apparatus]: https://github.com/lvnacy-notes/apparatus-vault-template
+[custom-sort]: https://github.com/SebastianMC/obsidian-custom-sort
+[dataview]: https://github.com/blacksmithgu/obsidian-dataview
+[folder-notes]: https://github.com/LostPaul/obsidian-folder-notes
+[longform]: https://github.com/kevboh/longform
+[templater]: https://github.com/SilentVoid13/Templater
