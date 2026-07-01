@@ -66,6 +66,40 @@ This README will be expanded as additional module templates, scripts, and plugin
 
 For more information about the LVNACY Obsidian Apparatus architecture and philosophy, see the main apparatus documentation in your Apparatus Vault.
 
+## VS Code Workspace
+
+This repository includes an `apparatus-module.code-workspace` file for seamless integration with VS Code. When pairing Obsidian with VS Code for development and editing:
+
+1. Open the workspace file in VS Code: `apparatus-module.code-workspace`
+2. Configure your VS Code settings and extensions as needed for your workflow
+3. The workspace maintains separate VS Code preferences from your system defaults
+
+This approach allows you to keep your Obsidian vault editing experience distinct from any VS Code-based development work, enabling you to work across both editors within the same project structure.
+
+## License
+
+MIT License
+
+Copyright (c) 2026 LVNACY
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 <!-- Links -->
 [apparatus]: https://github.com/lvnacy-notes/apparatus-vault-template
 [custom-sort]: https://github.com/SebastianMC/obsidian-custom-sort
